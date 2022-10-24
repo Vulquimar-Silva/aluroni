@@ -6,8 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function NotFound() {
   const navigate = useNavigate();
-  
-  return(
+  return (
     <div className={classNames({
       [styles.container]: true,
       [stylesTema.container]: true
